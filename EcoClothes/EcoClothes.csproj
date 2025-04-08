@@ -117,7 +117,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="DB\ekodrehi Database model.pdf" />
+    <None Include="Addons\ekodrehi Database model.pdf" />
+    <None Include="Addons\ekodrehi.pbix" />
     <None Include="EkodrehiDataSet.xsc">
       <DependentUpon>EkodrehiDataSet.xsd</DependentUpon>
     </None>
@@ -144,7 +145,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DB\ekodrehi.sql" />
+    <Content Include="Addons\ekodrehi.sql" />
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

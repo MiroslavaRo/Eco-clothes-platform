@@ -37,7 +37,7 @@
             System.Windows.Forms.Label id_skladLabel1;
             System.Windows.Forms.Label id_kategoriaLabel1;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Products));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ekodrehiDataSet = new EcoClothes.EkodrehiDataSet();
             this.produktiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.produktiTableAdapter = new EcoClothes.EkodrehiDataSetTableAdapters.ProduktiTableAdapter();
@@ -240,7 +240,7 @@
             this.produktiBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.produktiBindingNavigator.Name = "produktiBindingNavigator";
             this.produktiBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.produktiBindingNavigator.Size = new System.Drawing.Size(984, 31);
+            this.produktiBindingNavigator.Size = new System.Drawing.Size(984, 27);
             this.produktiBindingNavigator.TabIndex = 0;
             this.produktiBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -250,7 +250,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             this.bindingNavigatorAddNewItem.Click += new System.EventHandler(this.bindingNavigatorAddNewItem_Click);
             // 
@@ -575,10 +575,10 @@
             // dataGridViewTextBoxColumn7
             // 
             this.dataGridViewTextBoxColumn7.DataPropertyName = "cena";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle3.Format = "0.00 лв";
-            dataGridViewCellStyle3.NullValue = null;
-            this.dataGridViewTextBoxColumn7.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle4.Format = "0.00 лв";
+            dataGridViewCellStyle4.NullValue = null;
+            this.dataGridViewTextBoxColumn7.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewTextBoxColumn7.HeaderText = "цена";
             this.dataGridViewTextBoxColumn7.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";

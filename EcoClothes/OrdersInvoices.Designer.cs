@@ -35,8 +35,8 @@
             System.Windows.Forms.Label data_na_porychkaLabel;
             System.Windows.Forms.Label id_klientLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(OrdersInvoices));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ekodrehiDataSet = new EcoClothes.EkodrehiDataSet();
             this.porychkiBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.porychkiTableAdapter = new EcoClothes.EkodrehiDataSetTableAdapters.PorychkiTableAdapter();
@@ -289,7 +289,7 @@
             this.porychkiBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.porychkiBindingNavigator.Name = "porychkiBindingNavigator";
             this.porychkiBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.porychkiBindingNavigator.Size = new System.Drawing.Size(1178, 31);
+            this.porychkiBindingNavigator.Size = new System.Drawing.Size(1178, 27);
             this.porychkiBindingNavigator.TabIndex = 2;
             this.porychkiBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -299,7 +299,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             this.bindingNavigatorAddNewItem.Click += new System.EventHandler(this.bindingNavigatorAddNewItem_Click);
             // 
@@ -567,10 +567,10 @@
             // dataGridViewTextBoxColumn12
             // 
             this.dataGridViewTextBoxColumn12.DataPropertyName = "cena";
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
-            dataGridViewCellStyle11.Format = "0.00 лв.";
-            dataGridViewCellStyle11.NullValue = null;
-            this.dataGridViewTextBoxColumn12.DefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
+            dataGridViewCellStyle15.Format = "0.00 лв.";
+            dataGridViewCellStyle15.NullValue = null;
+            this.dataGridViewTextBoxColumn12.DefaultCellStyle = dataGridViewCellStyle15;
             this.dataGridViewTextBoxColumn12.HeaderText = "цена";
             this.dataGridViewTextBoxColumn12.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn12.Name = "dataGridViewTextBoxColumn12";
@@ -587,10 +587,10 @@
             // dataGridViewTextBoxColumn17
             // 
             this.dataGridViewTextBoxColumn17.DataPropertyName = "stoynost";
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
-            dataGridViewCellStyle12.Format = "0.00 лв";
-            dataGridViewCellStyle12.NullValue = null;
-            this.dataGridViewTextBoxColumn17.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopRight;
+            dataGridViewCellStyle16.Format = "0.00 лв";
+            dataGridViewCellStyle16.NullValue = null;
+            this.dataGridViewTextBoxColumn17.DefaultCellStyle = dataGridViewCellStyle16;
             this.dataGridViewTextBoxColumn17.HeaderText = "стойност";
             this.dataGridViewTextBoxColumn17.MinimumWidth = 6;
             this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
@@ -865,7 +865,7 @@
             this.bindingNavigator3.MovePreviousItem = this.bindingNavigatorMovePreviousItem3;
             this.bindingNavigator3.Name = "bindingNavigator3";
             this.bindingNavigator3.PositionItem = this.bindingNavigatorPositionItem3;
-            this.bindingNavigator3.Size = new System.Drawing.Size(748, 31);
+            this.bindingNavigator3.Size = new System.Drawing.Size(748, 27);
             this.bindingNavigator3.TabIndex = 5;
             this.bindingNavigator3.Text = "bindingNavigator3";
             // 
@@ -996,7 +996,7 @@
             this.bindingNavigator1.MovePreviousItem = this.bindingNavigatorMovePreviousItem2;
             this.bindingNavigator1.Name = "bindingNavigator1";
             this.bindingNavigator1.PositionItem = this.bindingNavigatorPositionItem2;
-            this.bindingNavigator1.Size = new System.Drawing.Size(418, 31);
+            this.bindingNavigator1.Size = new System.Drawing.Size(418, 27);
             this.bindingNavigator1.TabIndex = 3;
             this.bindingNavigator1.Text = "bindingNavigator1";
             // 

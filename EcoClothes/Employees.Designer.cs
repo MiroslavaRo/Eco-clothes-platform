@@ -118,7 +118,7 @@
             this.slujiteliBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.slujiteliBindingNavigator.Name = "slujiteliBindingNavigator";
             this.slujiteliBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.slujiteliBindingNavigator.Size = new System.Drawing.Size(1089, 31);
+            this.slujiteliBindingNavigator.Size = new System.Drawing.Size(1089, 27);
             this.slujiteliBindingNavigator.TabIndex = 0;
             this.slujiteliBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -195,7 +195,7 @@
             this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
             this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
             this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 28);
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(29, 24);
             this.bindingNavigatorAddNewItem.Text = "Add new";
             // 
             // bindingNavigatorDeleteItem
