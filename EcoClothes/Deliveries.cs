@@ -19,6 +19,16 @@ namespace EcoClothes
 
         private void Deliveries_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'ekodrehiDataSet.Kurieri' table. You can move, or remove it, as needed.
+            this.kurieriTableAdapter.Fill(this.ekodrehiDataSet.Kurieri);
+
+        }
+
+        private void kurieriBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.kurieriBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.ekodrehiDataSet);
 
         }
     }

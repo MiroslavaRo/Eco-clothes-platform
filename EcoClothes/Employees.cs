@@ -19,6 +19,16 @@ namespace EcoClothes
 
         private void Employees_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'ekodrehiDataSet.Slujiteli' table. You can move, or remove it, as needed.
+            this.slujiteliTableAdapter.Fill(this.ekodrehiDataSet.Slujiteli);
+
+        }
+
+        private void slujiteliBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.slujiteliBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.ekodrehiDataSet);
 
         }
     }

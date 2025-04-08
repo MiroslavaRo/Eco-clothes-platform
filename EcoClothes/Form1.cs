@@ -32,24 +32,25 @@ namespace EcoClothes
             new OrdersInvoices().ShowDialog();
         }
 
-        private void поръчкиToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new Orders().ShowDialog();
-        }
-
-        private void фактуриToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            new Invoice().ShowDialog();
-        }
 
         private void куриериToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new Deliveries().ShowDialog();
         }
 
         private void служителиToolStripMenuItem_Click(object sender, EventArgs e)
         {
+        }
+
+        private void metroButton3_Click(object sender, EventArgs e)
+        {
             new Employees().ShowDialog();
+
+        }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+            new Deliveries().ShowDialog();
+
         }
     }
 }
