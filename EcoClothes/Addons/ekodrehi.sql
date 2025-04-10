@@ -1,7 +1,7 @@
 ﻿CREATE DATABASE Ekodrehi
 go
 
-USE Ekodrehi_2
+USE Ekodrehi
 
 CREATE TABLE [Fakturi]
 ( 

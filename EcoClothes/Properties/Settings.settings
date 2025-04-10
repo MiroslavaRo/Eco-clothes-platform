@@ -10,5 +10,8 @@
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Ekodrehi;Integrated Security=True</Value>
     </Setting>
+    <Setting Name="red" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -64,5 +64,10 @@ namespace EcoClothes
         {
 
         }
+
+        private void id_produktLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
