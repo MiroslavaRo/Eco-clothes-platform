@@ -68,5 +68,10 @@ namespace EcoClothes
         {
 
         }
+
+        private void id_porychkaLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
